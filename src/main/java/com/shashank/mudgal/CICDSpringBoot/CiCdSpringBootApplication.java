@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CiCdSpringBootApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Spring boot")
+		System.out.println("Hello Spring boot");
 		SpringApplication.run(CiCdSpringBootApplication.class, args);
 	}
 
