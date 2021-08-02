@@ -1,4 +1,4 @@
 FROM openjdk:8
-EXPOSE 8082
-ADD target/docker-CI-CDSpringBoot.jar docker-CI-CDSpringBoot.jar
-ENTRYPOINT ["java" , "-jar","docker-CI-CDSpringBoot"]
+EXPOSE 8086
+ADD target/spring-boot-docker.jar spring-boot-docker.jar
+ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
